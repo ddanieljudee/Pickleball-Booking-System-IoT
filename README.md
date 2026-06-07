@@ -1,4 +1,4 @@
-# Pickleball Court Booking System
+# Pickleball Booking System Integration with Internet of Things (IoT)
 
 A full-stack web application with IoT integration for managing pickleball court reservations. Users book courts online and receive a 4-digit access code, which they enter on a physical keypad (ESP32) at the court gate to unlock entry.
 
