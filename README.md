@@ -9,9 +9,9 @@ Built as a Final Year Project (FYP) to demonstrate full-stack development combin
 - Court booking with date, time slot, duration, and court selection
 - Unique 4-digit access code generated per booking for IoT gate entry
 - JWT authentication with bcrypt password hashing
-- Admin dashboard — manage bookings, users, payments, analytics, IoT gate controls
-- User dashboard — book courts, upload payment proof, view history, cancel bookings (30-min policy)
-- Payment workflow — QR/cash payment proof upload, admin approval/rejection, bulk approve/reject
+- Admin dashboard - manage bookings, users, payments, analytics, IoT gate controls
+- User dashboard - book courts, upload payment proof, view history, cancel bookings (30-min policy)
+- Payment workflow - QR/cash payment proof upload, admin approval/rejection, bulk approve/reject
 - Admin-configurable per-court hourly pricing
 - Guest booking support (admin creates on behalf of walk-ins)
 - Admin can register additional admin accounts
