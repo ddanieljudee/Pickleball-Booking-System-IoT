@@ -134,4 +134,4 @@ IoT integration tests (`iot-integration.test.ts`) require the backend server to 
 
 ## License
 
-FYP Project — IoT-Integrated Pickleball Court Booking System © 2026
+FYP Project — Pickleball Booking System Integration with Internet of Things (IoT) © 2026
