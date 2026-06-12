@@ -57,7 +57,7 @@ pickleball-booking-system/
 │
 ├── src/                          # Frontend (React + TypeScript)
 │   ├── app/
-│   │   ├── components/           # UI components (Admin, User, Modals)
+│   │   ├── components/          # UI components (Admin, User, Modals)
 │   │   ├── data/                # Mock data & helpers
 │   │   ├── styles/              # CSS / Tailwind styles
 │   │   └── __tests__/           # Frontend unit & integration tests
