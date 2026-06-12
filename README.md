@@ -51,7 +51,6 @@ This project was developed as a Final Year Project (FYP), demonstrating full-sta
 ---
 
 ## 📁 Project Structure
-
 ├── src/
 │   ├── main.tsx
 │   └── app/
