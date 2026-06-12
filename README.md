@@ -78,7 +78,7 @@ pickleball-booking-system/
 ├── firmware/                    # IoT (ESP32)
 │   └── pickleball_gate_controller.ino
 │
-├── INSTALLATION.md              # Full setup guide
+├── INSTALLATION.pdf             # Full setup guide
 ├── README.md                    # Project overview
 └── package.json                 # Frontend dependencies
 ```
