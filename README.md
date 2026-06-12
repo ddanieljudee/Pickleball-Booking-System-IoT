@@ -51,43 +51,37 @@ This project was developed as a Final Year Project (FYP), demonstrating full-sta
 ---
 
 ## 📁 Project Structure
-├── src/
-│   ├── main.tsx
-│   └── app/
-│       ├── App.tsx
-│       ├── config.ts
-│       ├── components/
-│       │   ├── AdminDashboard.tsx
-│       │   ├── UserDashboard.tsx
-│       │   ├── GuestDashboard.tsx
-│       │   ├── BookingModal.tsx
-│       │   ├── PaymentModal.tsx
-│       │   ├── ManagePayments.tsx
-│       │   ├── CourtPricingSettings.tsx
-│       │   ├── LoginPage.tsx
-│       │   ├── RegisterPage.tsx
-│       │   ├── LandingPage.tsx
-│       │   ├── EditProfileModal.tsx
-│       │   ├── ConfirmModal.tsx
-│       │   ├── GuestBookingModal.tsx
-│       │   ├── RegisterAdminModal.tsx
-│       │   └── DeleteAccountConfirmationModal.tsx
-│       ├── data/
-│       │   └── mockData.ts
-│       └── __tests__/
-│           ├── mockData.test.ts
-│           └── iot-integration.test.ts
+
+```
+pickleball-booking-system/
 │
-├── server/
-│   ├── server.js
-│   ├── config.js
-│   ├── security.js
-│   ├── database-setup.sql
-│   ├── demo-data.sql
-│   └── seed-demo-data.js
+├── src/                          # Frontend (React + TypeScript)
+│   ├── app/
+│   │   ├── components/           # UI components (Admin, User, Modals)
+│   │   ├── data/                # Mock data & helpers
+│   │   ├── styles/              # CSS / Tailwind styles
+│   │   └── __tests__/           # Frontend unit & integration tests
+│   │
+│   ├── main.tsx                 # App entry point
+│   └── index.html
 │
-└── firmware/
-    └── pickleball_gate_controller.ino
+├── server/                      # Backend (Node.js + Express)
+│   ├── server.js                # Main API server
+│   ├── config.js                # Configuration settings
+│   ├── security.js              # Auth, validation, rate limiting
+│   │
+│   ├── database-setup.sql       # Database schema
+│   ├── demo-data.sql            # Sample data for testing
+│   ├── seed-demo-data.js        # Seeder script
+│   └── reset-and-seed.js        # Dev utility script
+│
+├── firmware/                    # IoT (ESP32)
+│   └── pickleball_gate_controller.ino
+│
+├── INSTALLATION.md              # Full setup guide
+├── README.md                    # Project overview
+└── package.json                 # Frontend dependencies
+```
 
 ---
 
