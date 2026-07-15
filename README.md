@@ -88,6 +88,7 @@ pickleball-booking-system/
 📌 Full setup instructions:
 
 👉 [Installation Guide](INSTALLATION.pdf)
+👉 [User Manual](USER MANUAL.pdf)
 
 ---
 
