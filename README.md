@@ -1,12 +1,12 @@
 # 🏓 Pickleball Booking System Integration with Internet of Things (IoT)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Landing_Page-green?style=for-the-badge&logo=github)](https://ddanieljudee.github.io/Pickleball-Booking-System-IoT/)
-
 A full-stack web application with IoT integration for managing pickleball court reservations.
 
 Users can book courts online and receive a unique 4-digit access code, which is used at the physical court gate via an ESP32-based keypad system to grant entry.
 
 This project was developed as a Final Year Project (FYP), demonstrating full-stack development, authentication systems, real-time booking logic, and IoT hardware integration.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Landing_Page-green?style=for-the-badge&logo=github)](https://ddanieljudee.github.io/Pickleball-Booking-System-IoT/)
 
 ---
 
