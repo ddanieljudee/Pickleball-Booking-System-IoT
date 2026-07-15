@@ -1,4 +1,6 @@
-# Pickleball Booking System Integration with Internet of Things (IoT)
+# 🏓 Pickleball Booking System Integration with Internet of Things (IoT)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Landing_Page-green?style=for-the-badge&logo=github)](https://ddanieljudee.github.io/Pickleball-Booking-System-IoT/)
 
 A full-stack web application with IoT integration for managing pickleball court reservations.
 
