@@ -55,51 +55,13 @@ This project was developed as a Final Year Project (FYP), demonstrating full-sta
 ## 📁 Project Structure
 
 ```
-pickleball-booking-system/
+pickleball-booking-system-IoT/
 │
-├── src/                          # Frontend (React + TypeScript)
-│   ├── app/
-│   │   ├── components/          # UI components (Admin, User, Modals)
-│   │   ├── data/                # Mock data & helpers
-│   │   ├── styles/              # CSS / Tailwind styles
-│   │   └── __tests__/           # Frontend unit & integration tests
-│   │
-│   ├── main.tsx                 # App entry point
-│   └── index.html
-│
-├── server/                      # Backend (Node.js + Express)
-│   ├── server.js                # Main API server
-│   ├── config.js                # Configuration settings
-│   ├── security.js              # Auth, validation, rate limiting
-│   │
-│   ├── database-setup.sql       # Database schema
-│   ├── demo-data.sql            # Sample data for testing
-│   ├── seed-demo-data.js        # Seeder script
-│   └── reset-and-seed.js        # Dev utility script
-│
-├── firmware/                    # IoT (ESP32)
-│   └── pickleball_gate_controller.ino
-│
-├── INSTALLATION.pdf             # Full setup guide
-├── README.md                    # Project overview
-└── package.json                 # Frontend dependencies
+├── assets/
+├── images/
+├── index.html
+└── README.md
 ```
-
----
-
-📌 Full setup instructions:
-
-👉 [Installation Guide](INSTALLATION.pdf)
-👉 [User Manual](USER_MANUAL.pdf)
-
----
-
-## 👤 Demo Accounts
-
-| Role  | Email                 | Password      |
-|-------|-----------------------|---------------|
-| Admin | admin@pickleball.com  | AdminPass123  |
-| User  | user@pickleball.com   | UserPass123   |
 
 ---
 
@@ -117,7 +79,7 @@ pickleball-booking-system/
 
 ## 📄 License
 
-This project was developed as part of a Final Year Project (FYP).
+This project was developed as part of a Final Year Project (FYP). Source code is not available for public.
 
 Copyright © 2026  
 Pickleball Booking System Integration with Internet of Things (IoT)  
